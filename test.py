@@ -1,5 +1,6 @@
 from input_output import *
 from black_and_white import *
+from gris import *
 
 
 #test the input and the output :
@@ -9,6 +10,11 @@ from black_and_white import *
 # saveImage(matrice,"elliot2.png")
 
 #test the black and white :
+
+img = image_blanche(50,50) * 255
+
+print(constrast(img))
+
 
 # black_matrice = image_noire(4,4)
 # print(black_matrice)
